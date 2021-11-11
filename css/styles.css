@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat';
+    margin: 0;
 }
 
 #title {
@@ -8,12 +9,12 @@ body{
 }
 
 #features {
-    /* padding: 7% 15%; */
+    padding: 7% 15%;
   }
 
   #testimonials{
     background-color: #057a19;
-    /* padding: 7% 15%; */
+    padding: 7% 15%;
     text-align: center;
     color: #ffffff;
   }
@@ -47,7 +48,7 @@ img{
 
 }
   .container-fluid{
-    padding: 3% 5%;
+    padding: 3% 15%;
   }
 
   .navbar{
