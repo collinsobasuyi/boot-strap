@@ -8,6 +8,7 @@ body{
 #title {
   background-color: #044d10;
   color: #ffffff;
+  padding: 7% 15%;
 }
 
 #features {
@@ -50,7 +51,7 @@ img{
 
 }
   .container-fluid{
-    padding: 3% 10%;
+    /* padding: 3% 10%; */
   }
 
   .navbar{
