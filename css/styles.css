@@ -40,14 +40,14 @@ body{
 h1 {
 
     font-family: 'Montserrat';
-    font-size: 3rem;
+    /* font-size: 3rem; */
     line-height: 1.5;
     font-weight:900;
   }
 
   h2 {
     font-family: 'Montserrat-Bold';
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
     line-height: 1.5;
     font-weight:900;
 
@@ -55,7 +55,7 @@ h1 {
 
   h3 {
     font-family: 'Montserrat-Bold';
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
   }
 
   p{
@@ -88,7 +88,7 @@ img{
 
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'Montserrat-Light';
+    font-family: 'Ubuntu';
 }
 
 .download-botton{
@@ -96,8 +96,11 @@ img{
 }
 
 .title-image{
-    width: 90%;
-    /* transform: rotate(15deg); */
+    width: 80%;
+    text-align: center;
+    transform: rotate(25deg);
+    /* filter: blur(1px); */
+
 }
 
 .icon {
