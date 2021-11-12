@@ -29,7 +29,7 @@
       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-">
         <a class="navbar-brand" href="#">
           <img src="images/nigeria.png" alt="" width="45" height="45" class="d-inline-block align-text-top">
-          Shentech</a>
+          biniboi</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,14 +37,28 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">App Development</a></li>
+                <li><a class="dropdown-item" href="#">Product Design</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Digital Marketing</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
+
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Download</a>
-            </li>
+            
           </ul>
 
           <form class="d-flex">
@@ -59,7 +73,7 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1>Creating world class digital products design creative and engineer specialist with or teams of specialist</h1>
+          <h1>Creating world class digital products design with our specialised engineering teams.</h1>
           <button type="button" class="btn btn-dark btn-lg download-botton"><i class="fab fa-apple"></i><span class="ms-2">Download</span></button>
           <button type="button" class="btn btn-outline-light btn-lg download-botton"><i class="fab fa-google-play"></i><span class="ms-2">Download</span></button>
         </div>
@@ -78,20 +92,20 @@
     <div class="container">
 <div class="row">
   <div class="feature-box col-lg-4"> 
-    <i class="icon fas fa-check-circle fa-4x"></i>
-    <h3>Easy to use.</h3>
+    <i class="icon fas fa-file-code fa-3x"></i>
+    <h3 class="icon-h3">Development.</h3>
     <p>So easy to use, even your dog could do it.</p>
   </div>
 
   <div class="feature-box col-lg-4"> 
-    <i class="icon fas fa-bullseye fa-4x"></i>
-    <h3>Elite Clientele</h3>
+    <i class="icon faB fa-medapps fa-3x"></i>
+    <h3 class="icon-h3">Product Design</h3>
     <p>We have all the dogs, the greatest dogs.</p>
   </div>
 
   <div class="feature-box col-lg-4"> 
-    <i class="icon fas fa-heart fa-4x"></i>
-    <h3>Guaranteed to work.</h3>
+    <i class="icon fas fa-microscope fa-3x"></i>
+    <h3 class="icon-h3">Guaranteed to work.</h3>
     <p>Find the love of your dog's life or your money back.</p>
   </div>
   </div>
@@ -102,14 +116,33 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    <div class="container"></div>
-    <h2>Find the perfect project for you. 9ja has a great variety of exciting projects.</h2>
-    <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
-    <em>Collins</em>
 
-    <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Adesuwa</em>
+    <div id="testimonials-carousel" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Find the perfect project for you. 9ja has a great variety of exciting projects.</h2>
+          <img class="testimonials-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Collins</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the </h2>
+          <img class="testimonials-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Adesuwa</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonials-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  
+
+  
   </div>
   </section>
 
