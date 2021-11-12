@@ -20,6 +20,22 @@ body{
     text-align: center;
     color: #ffffff;
   }
+  .testimonials-image{
+      width: 30%;
+      border-radius: 100%;
+      margin: 20px 20px 50px;
+  }
+
+  #press{
+    background-color: #057a19;
+    padding-bottom: 3%;
+    text-align: center;
+  }
+
+  .press-logo{
+      width: 15%;
+  }
+
 
 h1 {
 
@@ -55,6 +71,7 @@ img{
 
   .navbar{
       padding: 0 0 4.5rem;
+      color:#044d10;
 
   }
 
@@ -79,8 +96,8 @@ img{
 }
 
 .title-image{
-    width: 60%;
-    transform: rotate(15deg);
+    width: 90%;
+    /* transform: rotate(15deg); */
 }
 
 .icon {
@@ -97,3 +114,10 @@ img{
     padding: 5%;
 
 }
+
+
+
+
+
+
+
