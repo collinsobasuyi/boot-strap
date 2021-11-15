@@ -40,6 +40,24 @@ body{
   }
 
 
+  #pricing {
+    padding: 100px;
+    /* text-align: center; */
+  }
+
+  .btn-price{
+      margin-top: 10%;
+  }
+
+  .list-item-visibility-none{
+      visibility: hidden;
+      margin: auto;
+  }
+
+  .pricing-column{
+      padding: 3% 0;
+  }
+
 h1 {
 
     font-family: 'Montserrat';
